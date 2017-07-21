@@ -35,7 +35,89 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.ChromeWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Flex.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Java.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.MozillaWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Msaa.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Qt.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.RawText.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Sap.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Uia.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinFormsProxy, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.WinFormsProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WpfProxy, Version=7.1.0.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Ranorex 7.1\Bin\Ranorex.Plugin.WpfProxy.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -50,8 +132,20 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="PropertiesHandler.cs" />
+    <Compile Include="Tests\GoogleMainPageTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Settings\settings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
