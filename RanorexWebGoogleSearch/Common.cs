@@ -32,7 +32,8 @@ namespace RanorexWebGoogleSearch
             switch(browser)
             {
                 case "ChromeGoogle":
-                    path = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
+                    //      path = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
+                    path = "Chrome";
                     break;
             }
 

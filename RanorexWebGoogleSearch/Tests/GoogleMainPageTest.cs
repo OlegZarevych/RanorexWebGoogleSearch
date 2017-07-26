@@ -11,8 +11,7 @@ namespace RanorexWebGoogleSearch
     [TestFixture]
     class GoogleMainPageTest
     {
-        private Form form;
-        private System.Diagnostics.Process pr;
+        private Form form = null;
         /// <summary>
         /// Pre conditions
         /// Start chrome and goto google.com
@@ -20,13 +19,20 @@ namespace RanorexWebGoogleSearch
         [OneTimeSetUp]
         public void Init()
         {
-            pr = new System.Diagnostics.Process();
+            System.Diagnostics.Process pr = new System.Diagnostics.Process();
             pr.StartInfo.FileName = Common.BrowserPath();
             pr.StartInfo.Arguments = Common.Url + " --incognito";
-            pr.Start();
-            
-            form = Host.Local.FindSingle<Ranorex.Form>("form[ @processname =’" + pr.ProcessName + " ’]");
 
+            //          pr.StartInfo.UserName = null;
+            //           pr.StartInfo.Password = null;
+            //           pr.StartInfo.FileName = @"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe";
+            //           pr.StartInfo.Arguments = "www.google.com" + " --incognito";
+            //  int id = Host.Local.OpenBrowser("google.com", "chrome");
+            //  WebDocument webDocument = "/form[@title='Google - Google Chrome']";
+
+            pr.Start();
+            string process = "/form[@ProcessName='" + pr.ProcessName + "']";
+            form = Host.Local.FindSingle<Ranorex.Form>(process); 
             form.Activate();
         }
 
@@ -37,7 +43,6 @@ namespace RanorexWebGoogleSearch
         public void CloseBrowser()
         {
             form.Close();
-            pr.Kill();
         }
 
         [Test]
@@ -46,7 +51,12 @@ namespace RanorexWebGoogleSearch
             //           Button button = form.FindSingle<Ranorex.Button>(" .// button [ @controlid = ’132 ’]");
             //           button.Click();
             Assert.That(form.FindSingle("/form[@title='Google - Google Chrome']").Visible, Is.True);
-            
+        }
+
+        [Test]
+        public void CheckGoogleLogoAndSearchPresents()
+        {
+
         }
     }
 }
