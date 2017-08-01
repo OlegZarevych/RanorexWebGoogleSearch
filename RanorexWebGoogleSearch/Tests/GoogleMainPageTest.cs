@@ -19,7 +19,7 @@ namespace RanorexWebGoogleSearch
         {
             //           Button button = form.FindSingle<Ranorex.Button>(" .// button [ @controlid = ’132 ’]");
             //           button.Click();
-  //          Assert.That(form.FindSingle("/form[@title='Google - Google Chrome']").Visible, Is.True);
+            Assert.That(MainPage.Title.Visible, Is.True);
         }
 
         [Test]
