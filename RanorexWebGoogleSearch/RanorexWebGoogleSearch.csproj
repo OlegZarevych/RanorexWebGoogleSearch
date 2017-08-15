@@ -139,6 +139,7 @@
     <Compile Include="Common.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Pages\MainPage.cs" />
+    <Compile Include="Pages\PasswdInPage.cs" />
     <Compile Include="Pages\ResultPage.cs" />
     <Compile Include="Pages\SignInPage.cs" />
     <Compile Include="PropertiesHandler.cs" />
